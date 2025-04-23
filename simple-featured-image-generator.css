@@ -1,0 +1,30 @@
+/* メタボックス内の Canvas スタイル */
+#egf_generator_canvas {
+    border: 1px solid #ddd;
+    background-color: #333;
+    display: block;
+    margin: 0 auto;
+}
+
+/* タイトル入力欄 */
+#egf_title1,
+#egf_title2 {
+    box-sizing: border-box;
+    padding: 4px;
+    font-size: 14px;
+}
+
+/* ボタン */
+#egf_generate,
+#egf_save {
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* 結果イメージ */
+#egf_result_img {
+    border: 1px solid #ccc;
+    max-width: 100%;
+    height: auto;
+}
