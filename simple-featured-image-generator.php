@@ -3,7 +3,7 @@
 Plugin Name:    Simple Featured Image Generator
 Description:    アイキャッチジェネレータです。クラシックエディタの対投稿画面でアイキャッチを作成します。
 Version:        0.1
-Author:         Nando Koubo
+Author:         nando256
 Author URI:     https://blog.donguri3.net
 License:        Apache 2.0 License
 License URI:    https://www.apache.org/licenses/LICENSE-2.0
@@ -49,8 +49,8 @@ function egf_enqueue_assets( $hook ) {
         return;
     }
     global $post;
-    wp_enqueue_script( 'egf_script', plugins_url( 'simple-featured-image-generator.js', __FILE__ ), [ 'jquery' ], '0.1', true );
-    wp_enqueue_style( 'egf_style', plugins_url( 'simple-featured-image-generator.css', __FILE__ ) );
+    wp_enqueue_script( 'egf_script', plugins_url( 'js/simple-featured-image-generator.js', __FILE__ ), [ 'jquery' ], '0.1', true );
+    wp_enqueue_style( 'egf_style', plugins_url( 'css/simple-featured-image-generator.css', __FILE__ ) );
     wp_localize_script(
         'egf_script',
         'egfData',

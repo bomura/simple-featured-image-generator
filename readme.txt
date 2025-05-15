@@ -1,5 +1,5 @@
 === Simple Featured Image Generator ===
-Contributors: 	bomura
+Contributors: 	nando256
 Donate link: 	https://blog.donguri3.net
 Tags: 		featured-image, eyecatch, image-generator, post-thumbnail, title
 Tested up to:	6.8
